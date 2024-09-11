@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", 'Times New Roman', Times, serif;
+}
+header{
+    /* width: 1440px; */
+    height: 910px;
+    background-color: #401408;
+}
+span{
+    display: block;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px
+}
+header nav .logo{
+    width: 99px;
+    height: 36px;
+    top: 39px;
+    left: 139px;
+}
+header nav ul{
+    width: 448.74px;
+    height: 28px;
+    top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header nav .btn button{
+    width: 146.6px;
+    height: 54px;
+    /* top: 31px; */
+}
+header nav .btn button a{
+    text-decoration: none;
+    width: 77px;
+    height: 20px;
+    text-align: center;
+    color: #401408;
+}
+header .headmn{
+    display: flex;
+    gap: 170px;
+    position: relative;
+}
+header .headmn .img{
+    margin-top: 6px;
+    height: 800px;
+    width: 705px;
+    background-image: url(/images/0Illustration.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 50.9rem;
+}
+header .headmn .dpt{
+    color: #F6DEE3;
+    /* padding-block: 80px; */
+    padding-left: 79px;
+    margin-block: 50px;
+}
+header .headmn .dpt h1{
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .headmn .dpt p{
+    color: white;
+    font-weight: 400;
+    size: 18px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header .headmn .dpt .dscpt-ser{
+    display: flex;
+    padding-top: 30px;
+    gap: 70px;
+}
+header .headmn .dpt .dscpt-ser .dscpt{
+    border: 2px solid white;
+    padding-inline: 10px;
+    height: 346.3px;
+    width: 216px;
+    color: black;
+    background-color: #FFFFFF;
+}
+header .headmn .dpt .dscpt-ser .dscpt .form-item{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+header .headmn .dpt .dscpt-ser .dscpt .form-item2{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 30px;
+}
+header .headmn .dpt .dscpt-ser .dscpt .form-item3{
+    display: flex;
+    gap: 12px;
+    padding-bottom: 50px;
+}
+header .headmn .dpt .dscpt-ser .dscpt .form-item4 button{
+    width: 172px;
+    height: 58px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+header .headmn .dpt .dscpt-ser .dscpt .form-item4 button a{
+    text-decoration: none;
+    color: white;
+    width: 48px;
+    height: 20px;
+}
+header .headmn .dpt .dscpt-ser .srvs{
+    color: white;
+}
+header .headmn .dpt .dscpt-ser .srvs h2{
+    font-weight: 600;
+    size: 20px;
+    padding-top: 38px;
+}
+header .headmn .dpt .dscpt-ser .srvs .coin{
+    padding-top: 30px;
+}
+header .headmn .dpt .dscpt-ser .srvs .gift{
+    padding-top: 50px;
+}
+section div{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+aside{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 110px;
+    padding-block: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+aside p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
+}
+aside .pricing{
+    display: flex;
+    gap: 180px;
+}
+aside .wrd-of-apr p{
+    padding-top: 40px;
+}
+aside .wrd-of-apr button{
+    width: 172px;
+    height: 58px;
+    background-color: black;
+}
+aside .wrd-of-apr button a {
+    text-decoration: none;
+    color: white;
+}
+main{
+    padding-inline: 110px;
+}
+main .ftd{
+    display: flex;
+    justify-content: space-between;
+}
+main .ftd .ftd-words{
+    height: 414px;
+    width: 365px;
+}
+main .ftd .ftd-words .ftd-more{
+    display: flex;
+    gap: 6px;
+}
+main .ftd .ftd-words h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main .ftd .ftd-words .ftd-more h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main .ftd .ftd-house-front{
+    height: 414px;
+    width: 365px;
+}
+main .ftd .ftd-house-front .ftd-house-details{
+    padding-left: 20px;
+}
+main .ftd .ftd-house-front .ftd-house-details .ftd-price{
+    display: flex;
+    /* gap: 2px; */
+}
+/* main .ftd .ftd-house-front .ftd-house-details .ftd-price p{
+    padding-top: 7px;
+} */
+main .ftd .ftd-house-front .ftd-house-details h5 a{
+    text-decoration: none;
+    color: black;
+}
+main .ftd .ftd-house-front .ftd-house-details .room-dtls{
+    display: flex;
+    gap: 10px;
+}
+main .ftd .ftd-house-front .ftd-house-details .room-dtls .room-bed{
+    display: flex;
+    gap: 5px;
+}
+main .ftd .ftd-house-front .ftd-house-details .room-dtls .room-bath{
+    display: flex;
+    gap: 5px;
+}
+main .ftd .ftd-house-front .ftd-house-details .room-dtls .room-size{
+    display: flex;
+    gap: 5px;
+}
+main .ftd .ftd-scnd-house{
+    height: 414px;
+    width: 365px;
+}
+main .ftd .ftd-scnd-house .ftd-house-details{
+    padding-left: 20px;
+}
+main .ftd .ftd-scnd-house .ftd-house-details .ftd-price{
+    display: flex;
+    /* gap: 2px; */
+}
+/* main .ftd .ftd-scnd-house .ftd-house-details .ftd-price p{
+    padding-top: 7px;
+} */
+main .ftd .ftd-scnd-house .ftd-house-details h5 a{
+    text-decoration: none;
+    color: black;
+}
+main .ftd .ftd-scnd-house .ftd-house-details .room-dtls{
+    display: flex;
+    gap: 10px;
+}
+main .ftd .ftd-scnd-house .ftd-house-details .room-dtls .room-bed{
+    display: flex;
+    gap: 5px;
+}
+main .ftd .ftd-scnd-house .ftd-house-details .room-dtls .room-bath{
+    display: flex;
+    gap: 5px;
+}
+main .ftd .ftd-scnd-house .ftd-house-details .room-dtls .room-size{
+    display: flex;
+    gap: 5px;
+}
+
+/* main .ftd .ftd-house-front .ftd-house-details .room-dtls .room-size{
+    display: flex;
+    gap: 5px;
+} */
+
+
+
+main .scnd-row{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+main .scnd-row .scnd-row-frst-house{
+    height: 414px;
+    width: 365px;
+}
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details{
+    padding-left: 20px;
+}
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details .scnd-row-price{
+    display: flex;
+    /* gap: 5px; */
+}
+/* main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details .scnd-row-price p{
+    padding-top: 7px;
+} */
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details h5 a{
+    text-decoration: none;
+    color: black;
+}
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details .room-dtls{
+    display: flex;
+    gap: 10px;
+}
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details .room-dtls .room-bed{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details .room-dtls .room-bath{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-frst-house .scnd-row-frst-house-house-details .room-dtls .room-size{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-scnd-house{
+    height: 414px;
+    width: 365px;
+}
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details{
+    padding-left: 20px;
+}
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details .scnd-row-price{
+    display: flex;
+    /* gap: 5px; */
+}
+/* main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details .scnd-row-price p{
+    padding-top: 7px;
+} */
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details h5 a{
+    text-decoration: none;
+    color: black;
+}
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details .room-dtls{
+    display: flex;
+    gap: 10px;
+}
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details .room-dtls .room-bed{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details .room-dtls .room-bath{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-scnd-house .scnd-row-scnd-house-house-details .room-dtls .room-size{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-trd-house {
+    height: 414px;
+    width: 365px;
+}
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details{
+    padding-left: 20px;
+}
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details .scnd-row-price{
+    display: flex;
+    /* gap: 5px; */
+}
+/* main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details .scnd-row-price p{
+    padding-top: 7px;
+} */
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details h5 a{
+    text-decoration: none;
+    color: black;
+}
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details .room-dtls{
+    display: flex;
+    gap: 10px;
+}
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details .room-dtls .room-bed{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details .room-dtls .room-bath{
+    display: flex;
+    gap: 5px;
+}
+main .scnd-row .scnd-row-trd-house .scnd-row-trd-house-house-details .room-dtls .room-size{
+    display: flex;
+    gap: 5px;
+}
+article{
+    text-align: center;
+    background-color: #275738;
+    height: 500px;
+    /* padding-top: 20px; */
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+article .feedback{
+    padding-bottom: 50px;
+}
+article .lorem img{
+    padding-bottom: 20px;
+}
+article .lorem p{
+    padding-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article .lorem h2{
+    padding-bottom: 10px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 488px;
+}
+footer .contact{
+    background-color: #401408;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 40%;
+    padding-top: 90px;
+}
+footer .contact h1{
+    padding-bottom: 10px;
+    padding-left: 150px;
+
+}
+footer .contact p{
+    padding-block: 10px;
+    padding-left: 150px;
+}
+footer .contact h4{
+    padding-top: 25px;
+    padding-left: 150px;
+}
+footer .contact ul{
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+footer .contact ul li{
+    list-style: none;
+}
+footer .contact ul li a{
+    color: white;
+}
+footer form{
+    padding: 60px;
+    padding-left: 100px;
+}
+footer form h1{
+    color: #401408;
+    font-weight: 800;
+    size: 50px;
+    padding-bottom: 40px;
+}
+footer form .cnt-info input{
+    height: 47px;
+    width: 259px;
+    background-color: #F8F8F8;
+    border: none;
+}
+footer form .cnt-info .name{
+    display: flex;
+    gap: 20px;
+    padding-block: 10px;
+}
+footer form .cnt-info .to-reach{
+    display: flex;
+    gap: 20px;
+    padding-block: 10px;
+}
+footer form .cnt-info .message{
+    padding-block: 10px;
+    padding-bottom: 20px;
+}
+footer form .cnt-info button{
+    height: 50px;
+    width: 148.78px;
+    background-color: black;
+    color: white;
+}
+footer form .cnt-nav ul{
+    display: flex;
+    gap: 50px;
+    padding-block: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer form .cnt-nav ul li{
+    list-style: none;
+}
+footer form .cnt-nav ul li a{
+    color: black;
+    text-decoration: none;
+}
